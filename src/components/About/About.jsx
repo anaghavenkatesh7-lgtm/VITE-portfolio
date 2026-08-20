@@ -9,7 +9,7 @@ function About() {
       <div className="about-content">
         <figure className="profile-figure">
           <img
-            src="/my pic.jpeg"
+            src="/my formal pic.jpeg"
             alt="Anagha Venkatesh"
           />
 
