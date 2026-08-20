@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #17132f;       /* Dark purple */
+  --accent: #9f16a7bb;        /* Bright purple */
+  --pink: #e56bea;          /* Pink-purple */
+  --text: #17132f;          /* Dark text */
+  --light: #f6f0ff;         /* Light lavender */
+  --white: #ffffff;
+}
+body {
+  font-family: var(--font-main);
+  color: var(--text);
+  line-height: 1.6;
+  background-color: var(--white);
+}
+.navbar

@@ -1,0 +1,76 @@
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    #17132f,
+    #30205c,
+    #4b2575
+  );
+
+  color: white;
+  text-align: center;
+  padding: 100px 5%;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeinup 0.8s ease 0.2s both;
+}
+
+.tagline {
+  animation: fadeinup 0.8s ease 0.4s both;
+}
+
+.hero-button {
+  margin-top: 30px;
+  animation: fadeinup 0.8s ease 0.6s both;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: #9f16a7;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #9f16a7;
+}
+
+.btn-secondary {
+  background: #17132f;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #17132f;
+}
+
+@keyframes fadeinup {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+}

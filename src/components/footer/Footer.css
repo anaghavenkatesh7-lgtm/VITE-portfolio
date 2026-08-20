@@ -1,0 +1,20 @@
+.site-footer {
+  background: #17132f;
+  color: white;
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.site-footer nav {
+  margin-top: 15px;
+}
+
+.site-footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.site-footer a:hover {
+  color: #e56bea;
+}
